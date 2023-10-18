@@ -1,6 +1,6 @@
 DjangoOnlineStore Project
 
-This is a web application project for a djangoonlinestore built using Django and the Django REST framework.
+This is a web application project for an online store built using Django and the Django REST framework.
 
 ## Features
 
