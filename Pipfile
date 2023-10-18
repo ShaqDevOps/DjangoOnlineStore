@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+shell = "pipenv run python -m decouple config/settings.py"
+
+
+[packages]
+django = "==4.2.6"
+django-debug-toolbar = "==4.2.0"
+mysqlclient = "==2.2.0"
+djangorestframework = "==3.14.0"
+drf-nested-routers = "==0.93.4"
+django-filter = "*"
+asgiref = "==3.7.2"
+mysql = "==0.0.3"
+pytz = "==2023.3.post1"
+sqlparse = "==0.4.4"
+typing-extensions = "==4.8.0"
+python-decouple = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.10"
+
